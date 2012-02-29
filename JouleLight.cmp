@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-18 BZR 3371)-testing date = Tue 07 Feb 2012 08:31:15 PM EST
+
+BeginCmp
+TimeStamp = /4EA4668E;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = U0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EA46657;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A39D1;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0A37F7;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EA4659B;
+Reference = P2;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F31D01D;
+Reference = P3;
+ValeurCmp = SPST;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EA4658A;
+Reference = Q1;
+ValeurCmp = BC237;
+IdModule  = TO92-EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EA46531;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = U0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EA46684;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = U0805;
+EndCmp
+
+EndListe

@@ -1,0 +1,205 @@
+
+(session JouleLight.ses
+  (base_design JouleLight.dsn)
+  (placement
+    (resolution mil 10)
+    (component D4
+      (place D1 25080 -17850 front 0)
+    )
+    (component PIN_ARRAY_2X1
+      (place SW1 17510 -19320 front 0)
+    )
+    (component PIN_ARRAY_2X2
+      (place P1 19840 -20800 front 0)
+    )
+    (component "TO92-EBC"
+      (place Q1 20620 -18150 front 0)
+    )
+    (component U0805
+      (place R2 24440 -19820 front 0)
+      (place R1 26340 -19750 front 0)
+      (place D2 23030 -22240 front 0)
+      (place C1 25040 -22210 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution mil 10)
+    (parser
+      (host_cad "Kicad's PCBNEW")
+      (host_version "(2010-00-09 BZR 23xx)-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_35:25_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_35:0_mil"
+        (shape
+          (circle Front 350 0 0)
+        )
+        (shape
+          (circle Back 350 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net GND
+        (wire
+          (path Front 80
+            21120 -17650
+            21120 -18341
+            19894 -19567
+            19894 -21722
+            20831 -22659
+            23304 -22659
+            23723 -22240
+          )
+        )
+        (wire
+          (path Front 80
+            25097 -22210
+            25097 -22528
+            24996 -22629
+            24112 -22629
+            23723 -22240
+          )
+        )
+        (wire
+          (path Front 80
+            23405 -22240
+            23723 -22240
+          )
+        )
+        (wire
+          (path Front 80
+            25415 -22210
+            25097 -22210
+          )
+        )
+      )
+      (net "N-000001"
+        (wire
+          (path Front 80
+            24665 -20828
+            26347 -20828
+            27080 -20095
+            27080 -17850
+          )
+        )
+        (wire
+          (path Front 80
+            24383 -19820
+            24383 -20546
+            24665 -20828
+          )
+        )
+        (wire
+          (path Front 80
+            24665 -21792
+            24665 -20828
+          )
+        )
+        (wire
+          (path Front 80
+            24665 -22210
+            24665 -21792
+          )
+        )
+        (wire
+          (path Front 80
+            24065 -19820
+            24383 -19820
+          )
+        )
+      )
+      (net "N-000003"
+        (wire
+          (path Front 80
+            22655 -22240
+            22655 -20335
+            23589 -19401
+            24396 -19401
+            24815 -19820
+          )
+        )
+      )
+      (net "N-000004"
+        (wire
+          (path Back 80
+            20340 -18870
+            20120 -18650
+          )
+        )
+        (wire
+          (path Back 80
+            20340 -20300
+            20340 -18870
+          )
+        )
+        (wire
+          (path Back 80
+            20340 -18870
+            22060 -18870
+            23080 -17850
+          )
+        )
+      )
+      (net "N-000006"
+        (wire
+          (path Back 80
+            19340 -20300
+            18990 -20300
+            18010 -19320
+          )
+        )
+        (wire
+          (path Back 80
+            19340 -20300
+            19340 -21300
+          )
+        )
+      )
+      (net "N-000007"
+        (wire
+          (path Front 80
+            25647 -19750
+            25115 -19218
+            22422 -19218
+            20340 -21300
+          )
+        )
+        (wire
+          (path Front 80
+            25965 -19750
+            25647 -19750
+          )
+        )
+      )
+      (net "N-000008"
+        (wire
+          (path Front 80
+            26715 -19750
+            26397 -19750
+          )
+        )
+        (wire
+          (path Front 80
+            26397 -19750
+            26397 -19432
+            24196 -17231
+            20539 -17231
+            20120 -17650
+          )
+        )
+      )
+    )
+  )
+)

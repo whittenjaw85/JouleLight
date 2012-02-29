@@ -1,0 +1,72 @@
+# EESchema Netlist Version 1.1 created  Tue 07 Feb 2012 08:31:15 PM EST
+(
+ ( /4EA4668E U0805 C1 C
+  ( 1 N-000003 )
+  ( 2 GND )
+ )
+ ( /4EA46657 D4 D1 DIODE
+  ( 1 N-000005 )
+  ( 2 N-000003 )
+ )
+ ( /4F0A39D1 PIN_ARRAY_2X1 D3 LED
+  ( 1 N-000004 )
+  ( 2 GND )
+ )
+ ( /4F0A37F7 PIN_ARRAY_2X1 P1 CONN_2
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4EA4659B PIN_ARRAY_2X2 P2 CONN_2X2
+  ( 1 N-000006 )
+  ( 2 N-000006 )
+  ( 3 N-000007 )
+  ( 4 N-000005 )
+ )
+ ( /4F31D01D PIN_ARRAY_2X1 P3 SPST
+  ( 1 VCC )
+  ( 2 N-000006 )
+ )
+ ( /4EA4658A TO92-EBC Q1 BC237
+  ( B N-000008 )
+  ( C N-000005 )
+  ( E GND )
+ )
+ ( /4EA46531 U0805 R1 R
+  ( 1 N-000007 )
+  ( 2 N-000008 )
+ )
+ ( /4EA46684 U0805 R2 R
+  ( 1 N-000003 )
+  ( 2 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component Q1
+ TO92-EBC
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
